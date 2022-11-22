@@ -1,0 +1,13 @@
+non-empty::after{
+    content: '2';
+    font-size: 25px;
+    width : 25px;
+    display:inline-block;
+    text-align:center;
+    position: relative;
+    top:-20px;
+    right:20%;
+    background-color: orange;
+    border-radius:50%
+
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://kit.fontawesome.com/9f08b2c0b4.js" crossorigin="anonymous"></script>
+        <script src="/grocery1/login.js" ></script>
+        <title>Grocery Online Shop</title>
+    </head>
+    <body>
+        <!-- navbar -->
+     
+      <div class="flex flex-col space-y-40 h-full w-full overflow-y-scroll mb-0 mx-4 bg-gray-200">
+          <div class="flex h-30 w-full z-10 px-8 py-2 justify-between fixed top-0 bg-white">
+            <div class="flex sticky top-0">
+                 <img src="https://i.pinimg.com/564x/b6/a5/b0/b6a5b0a5116bade6e7a62f3245e720a7.jpg" class="h-14">
+                 <h1 class="px-2 py-2 text-center text-5xl text-indigo-900 font-extrabold font-mono opacity-800">Foodies Grocery</h1></div>
+              <div class="space-x-6 text-2xl px-2 py-2 text-indigo-900 font-mono group flex">
+                <a href="/grocery1/html/home.html" class="rounded-full px-2 py-2" >Home</a>
+                <a href="/grocery1/html/features.html" class="rounded-full px-2 py-2" >Features</a>
+                <a href="/grocery1/html/products.html" class="rounded-full px-2 py-2">Products</a>
+                <a href="/grocery1/html/categories.html" class="rounded-full px-2 py-2">Categories</a>
+                <a href="/grocery1/html/reviews.html" class="rounded-full px-2 py-2">Review</a>
+            </div>
+            <div class="space-x-2 h-16 px-2 py-2 group">
+                <button class="bg-slate-200 h-14 w-14 group-hover:bg-orange-600 "><img src="data:image/png;base64,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" class="h-14 w-14 px-2 py-2"></button>
+                <button class="bg-slate-200 h-14 w-14 group-hover:bg-orange-600 " id="b2" onclick="cart()"><img src="https://cdn-icons-png.flaticon.com/512/25/25619.png" class="h-14 w-14 px-2 py-2"></button>
+                <button class="bg-slate-200 h-14 w-14 group-hover:bg-orange-600  "><a href="/grocery1/html/login.html" ><img src="https://static.thenounproject.com/png/638636-200.png" class="h-14  w-14 px-2 py-2"></a></button>
+            </div>
+          </div>
+         <!-- navbar ends -->
+
+         <div class="h-screen w-full">
+            <div class="flex justify-center">
+              <div class="flex flex-col  space-y-4 bg-white h-80 w-90  text-center px-2 py-2  ">
+                
+                   <div> <h3 class="text-4xl font-extrabold text-indigo-900">Login Now</h3></div><br>
+                   <div class="text-xl font-normal ">
+                    Email : <input type="email" placeholder="Enter email" id="email"><Br>
+                        <br>
+                    Password : <input type="password" placeholder="Enter password" id="pass" >
+                    
+                   </div>
+                    <div class="h-14 w-36 border-x-2 border-y-2 text-center rounded-md text-gray-800 font-bold hover:border-indigo-900 hover:bg-orange-400 text-2xl px-2 py-2 ml-32" onclick="submit()"><input type="submit" value="Login Now" class="btn"></div>
+                
+              </div>
+            </div>
+         </div>
+        </div>
